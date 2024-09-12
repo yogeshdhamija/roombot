@@ -1,0 +1,7 @@
+name: conda-env
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab
+variables:
+  ENVIRONMENT_VARIABLE: FOO
