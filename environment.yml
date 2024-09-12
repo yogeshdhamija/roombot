@@ -4,6 +4,7 @@ channels:
 dependencies:
   - pip
   - jupyterlab
+  - jupyterlab_vim
   - llm
   - sqlite
   - sqlite-utils
