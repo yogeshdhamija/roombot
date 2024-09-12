@@ -9,6 +9,8 @@ To set up your local environment:
 
 To run:
 1. `conda activate ./conda-env`
+1. `export ROOMBOT_CODE_DIR=~/your/source/code/directory/`
+    - or `set -gx ROOMBOT_CODE_DIR ~/your/source/code/directory/` if you use `fish` shell
 1. `jupyter lab`
 1. Open the `Experimentation.ipnyb` notebook in the browser window.
     - Note: to enable/disable vim keybindings, go to "Settings -> Enable Vim Mode" in the menu bar.
