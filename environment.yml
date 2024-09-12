@@ -2,6 +2,12 @@ name: conda-env
 channels:
   - conda-forge
 dependencies:
+  - pip
   - jupyterlab
+  - llm
+  - sqlite
+  - sqlite-utils
+  - pip:
+      - sqlite-vec
 variables:
-  ENVIRONMENT_VARIABLE: FOO
+  ENVIRONMENT_LOADED: roombot
