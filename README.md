@@ -8,6 +8,9 @@ To set up your local environment:
 
 To run:
 1. `conda activate ./conda-env`
+1. `jupyter lab`
+1. Open the `Notebook.ipnyb` in the browser window.
+1. Run stuff.
 1. ???
 1. Profit.
 
@@ -19,3 +22,7 @@ To update your local environment (getting package updates, or to absorb changes 
 To update/change dependencies:
 1. Manually edit `./environment.yml` (Yes, really. This is python. We don't have lockfiles.)
 1. Update your local environment (see above)
+
+
+To get vim shortcuts in the notebook:
+1. `conda install jupyterlab_vim`
